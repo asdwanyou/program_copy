@@ -13,64 +13,386 @@ void main()
 {
    while(1)
    {
+      for (int i=1000;i>0;i--)
+      {
+          P0=table[2];
+            P2_0 = 0;
+            delay(5);
+            P2_0 = 1;
+
+            P0=table[0];
+            P2_1 = 0;
+            delay(5);
+            P2_1 = 1;
+
+            P0=table[1];
+            P2_2 = 0;
+            delay(5);
+            P2_2 = 1;
+
+            P0=table[7];///////////////
+            P2_3 = 0;
+            delay(5);
+            P2_3 = 1;
+        
+      }
+      
+       for (int i=1000;i>0;i--)
+      {
+            P0=table[2];
+            P2_0 = 0;
+            delay(5);
+            P2_0 = 1;
+
+            P0=table[0];
+            P2_1 = 0;
+            delay(5);
+            P2_1 = 1;
+
+            P0=table[1];
+            P2_2 = 0;
+            delay(5);
+            P2_2 = 1;
+
+            P0=table[7];///////////////
+            P2_3 = 0;
+            delay(5);
+            P2_3 = 1;
+           
+      }
+
+      P0=0xff;
+      P2_3 = 0;
+      delay(4000);
+      P2_3 = 1;
+
+      
+      for (int i=1000;i>0;i--)
+      {
+            P0=table[0];
+            P2_0 = 0;
+            delay(5);
+            P2_0 = 1;
+
+             P0=table[1];
+            P2_1 = 0;
+            delay(5);
+            P2_1 = 1;
+
+             P0=table[7];
+            P2_2 = 0;
+            delay(5);
+            P2_2 = 1;
+
+             P0=table[2];///////////
+            P2_3 = 0;
+            delay(5);
+            P2_3 = 1;
+
+            P0=0xff;
+            P2_3 = 0;
+            delay(4000);
+            P2_3 = 1;
+ 
+      }
+
+
+
+      
+
+      for (int i=1000;i>0;i--)
+      {
+            P0=table[1];
+            P2_3 = 0;
+            delay(5);
+            P2_3 = 1;
+
+             P0=table[7];
+            P2_0 = 0;
+            delay(5);
+            P2_0 = 1;
+
+             P0=table[2];
+            P2_1 = 0;
+            delay(5);
+            P2_1 = 1;
+
+             P0=table[8];//////////////
+            P2_2 = 0;
+            delay(5);
+            P2_2 = 1;
+
+            P0=0xff;
+            P2_3 = 0;
+            delay(4000);
+            P2_3 = 1;
+            
+      }
+
+
+      
+
+      for (int i=1000;i>0;i--)
+      {
+
+                  P0=table[7];
+      P2_0 = 0;
+      delay(5);
+      P2_0 = 1;
+
+      P0=table[2];
+      P2_1 = 0;
+      delay(5);
+      P2_1 = 1;
+
+      P0=table[8];
+      P2_2 = 0;
+      delay(5);
+      P2_2 = 1;
+
+      P0=table[0];/////////////////
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+
+      P0=0xff;
+      P2_3 = 0;
+      delay(4000);
+      P2_3 = 1;
+            
+      }
+
+
       P0=table[2];
       P2_0 = 0;
-      delay(20000);
+      delay(5);
+      P2_0 = 1;
+
+      P0=table[8];
+      P2_1 = 0;
+      delay(5);
+      P2_1 = 1;
+
+      P0=table[0];
+      P2_2 = 0;
+      delay(5);
+      P2_2 = 1;
+
+      P0=table[5];/////////
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+      P0=0xff;
+      P2_3 = 0;
+      delay(4000);
+      P2_3 = 1;
+
+      for (int i=1000;i>0;i--)
+      {
+            
+      }
+
+
+      P0=table[8];
+      P2_0 = 0;
+      delay(5);
       P2_0 = 1;
 
       P0=table[0];
       P2_1 = 0;
-      delay(20000);
+      delay(5);
+      P2_1 = 1;
+
+      P0=table[5];
+      P2_2 = 0;
+      delay(5);
+      P2_2 = 1;
+
+      P0=table[4];////////////
+      P2_0 = 0;
+      delay(5);
+      P2_0 = 1;
+
+      P0=0xff;
+      P2_3 = 0;
+      delay(4000);
+      P2_3 = 1;
+
+      for (int i=1000;i>0;i--)
+      {
+            
+      }
+
+
+      P0=table[0];
+      P2_1 = 0;
+      delay(5);
+      P2_1 = 1;
+
+      P0=table[5];
+      P2_2 = 0;
+      delay(5);
+      P2_2 = 1;
+
+       P0=table[4];
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+       P0=table[1];////////////
+      P2_0 = 0;
+      delay(5);
+      P2_0 = 1;
+
+      P0=0xff;
+      P2_3 = 0;
+      delay(4000);
+      P2_3 = 1;
+
+      for (int i=1000;i>0;i--)
+      {
+            
+      }
+
+
+      P0=table[5];
+      P2_1 = 0;
+      delay(5);
+      P2_1 = 1;
+
+      P0=table[4];
+      P2_2 = 0;
+      delay(5);
+      P2_2 = 1;
+
+      P0=table[1];
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+      P0=table[6];//////////////
+      P2_0 = 0;
+      delay(5);
+      P2_0 = 1;
+
+      P0=0xff;
+      P2_3 = 0;
+      delay(4000);
+      P2_3 = 1;
+
+      for (int i=1000;i>0;i--)
+      {
+            
+      }
+
+
+      P0=table[4];
+      P2_1 = 0;
+      delay(5);
       P2_1 = 1;
 
       P0=table[1];
       P2_2 = 0;
-      delay(20000);
+      delay(5);
       P2_2 = 1;
 
-       P0=table[7];
-      P2_3 = 0;
-      delay(20000);
-      P2_3 = 1;
-
-       P0=table[2];
+      P0=table[6];
       P2_0 = 0;
-      delay(20000);
+      delay(5);
       P2_0 = 1;
 
-       P0=table[8];
+      P0=table[0];//////////////
       P2_1 = 0;
-      delay(20000);
+      delay(5);
       P2_1 = 1;
 
-       P0=table[0];
-      P2_2 = 0;
-      delay(20000);
-      P2_2 = 1;
-
-       P0=table[5];
+      P0=0xff;
       P2_3 = 0;
-      delay(20000);
+      delay(4000);
       P2_3 = 1;
 
-       P0=table[4];
-      P2_0 = 0;
-      delay(20000);
-      P2_0 = 1;
+      for (int i=1000;i>0;i--)
+      {
+            
+      }
 
-       P0=table[1];
-      P2_1 = 0;
-      delay(20000);
-      P2_1 = 1;
 
-       P0=table[6];
+      P0=table[1];
       P2_2 = 0;
-      delay(20000);
+      delay(5);
       P2_2 = 1;
 
-       P0=0x7F;
+      P0=table[6];
       P2_3 = 0;
-      delay(20000);
+      delay(5);
+      P2_3 = 1;
+
+      P0=table[0];
+      P2_0 = 0;
+      delay(5);
+      P2_0 = 1;
+
+      P0=table[0];//////////////
+      P2_1 = 0;
+      delay(5);
+      P2_1 = 1;
+
+      P0=0xff;
+      P2_3 = 0;
+      delay(4000);
+      P2_3 = 1;
+
+      for (int i=1000;i>0;i--)
+      {
+            
+      }
+
+
+      P0=table[6];
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+      P0=table[0];
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+      P0=table[0];
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+      P0=table[0];////////////////
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+      P0=0xff;
+      P2_3 = 0;
+      delay(4000);
+      P2_3 = 1;
+
+      P0=table[0];
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+      P0=table[0];
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+      P0=table[0];
+      P2_3 = 0;
+      delay(5);
+      P2_3 = 1;
+
+      P0=table[0];///////////////
+      P2_3 = 0;
+      delay(5);
       P2_3 = 1;
    }
 }
@@ -78,5 +400,5 @@ void delay(uint xms)
 {
    uint i,j;
    for(i=xms;i>0;i--)
-      for(j==110;j>0;j--);
+      for(j==15;j>0;j--);
 }
